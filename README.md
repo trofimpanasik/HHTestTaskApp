@@ -28,14 +28,25 @@
 # 1. Клонируйте репозиторий
 git clone <repository-url>
 cd HHTestTaskApp
+```
 
+```bash
 # 2. Установите зависимости
 npm install
+```
 
+```bash
 # 3. Установите iOS поды (только для macOS)
 cd ios && pod install && cd ..
+```
 
-# 4. Запустите приложение
+```bash
+# 4. Запустите Metro Bundler
+npm start
+```
+
+```bash
+# 5. Запустите приложение(в другом окне терминала)
 # Для iOS:
 npm run ios
 
